@@ -27,7 +27,3 @@ div {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-
-.rowspan {
-  grid-column-start: 2;
-}
