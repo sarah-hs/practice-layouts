@@ -10,7 +10,7 @@ div {
 .wrapper {
   display: grid; 
   grid-gap: 10px;
-  grid-rows-columns: 2fr 1fr 1fr;
+  grid-rows-rows: 2fr 1fr 1fr;
 }
 
 .rowspan {
@@ -20,7 +20,7 @@ div {
 
 .subgrid {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-row-start: 1;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
