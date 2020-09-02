@@ -1,0 +1,36 @@
+main {
+  padding: 10px;
+}
+
+div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Your code goes here... */
+.wrapper {
+  display: grid; 
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.subgrid {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.last {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.rowspan {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
