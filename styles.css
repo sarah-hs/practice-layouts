@@ -9,30 +9,6 @@ div {
 
 .wrapper {
   display: grid; 
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: 1fr 2fr; 
   grid-auto-rows: 100px; 
-}
-
-.subgrid {
-  display: grid; 
-  grid-template-columns: repeat(2, 1fr); 
-  grid-auto-rows: 80px; 
-  grid-column-start: 1;
-  grid-column-end: 3; 
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.last { 
-  grid-column-start: 1; 
-  grid-column-end: 3; 
-  grid-row-start: 2; 
-  grid-row-end: 3; 
-}
-
-.rowspan { 
-  grid-column-start: 3; 
-  grid-column-end: 5;
-  grid-row-start: 1; 
-  grid-row-end: 4; 
 }
