@@ -10,22 +10,6 @@ div {
 .wrapper {
   display: grid; 
   grid-gap: 10px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.subgrid {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.last {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.rowspan {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
 }
