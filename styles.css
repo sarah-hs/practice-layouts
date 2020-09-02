@@ -13,3 +13,19 @@ div {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 25% 25%;
 }
+
+.subgrid {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.last {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.rowspan {
+}
