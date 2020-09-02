@@ -10,6 +10,7 @@ div {
 .wrapper {
   display: grid; 
   grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 2fr 1fr 1fr;
 }
 
@@ -28,6 +29,7 @@ div {
 
 .rowspan {
   grid-column-start: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 3;
 }
