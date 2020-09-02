@@ -13,6 +13,11 @@ div {
   grid-template-rows: 2fr 1fr 1fr;
 }
 
+.rowspan {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 .subgrid {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -23,10 +28,5 @@ div {
 
 .last {
   grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-.rowspan {
-  grid-column-start: 2;
   grid-column-end: 3;
 }
